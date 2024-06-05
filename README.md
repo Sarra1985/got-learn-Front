@@ -1,6 +1,9 @@
 # GOT-Learn-Front
+Hello, dear contributor, nice to meet you ! 👋
 
 This is the source code of GOT Learn interface, provided by data from GOT-Learn-API project (https://github.com/GuildOpenTech/got-learn-API)
+
+This project is build with [React](https://fr.react.dev/) and TypeScript.
 
 ## Before you start
 👋 Hello, dear contributor, nice to meet you !
@@ -20,5 +23,5 @@ $ yarn install
 
 ```bash
 # development
-$ yarn run dev
+$ yarn dev
 ```
