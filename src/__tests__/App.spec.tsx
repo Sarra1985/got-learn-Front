@@ -6,7 +6,7 @@ describe("App", () => {
     const getSectionByName = (name: string) => screen.getByRole("heading", { level: 2, name });
 
     render(<App />);
-    expect(getSectionByName("topSection")).toBeInTheDocument();
+    expect(getSectionByName("Innovons l'informatique, inspirons les talents")).toBeInTheDocument();
     expect(getSectionByName("(Se) Dépasser les obstacles")).toBeInTheDocument();
     expect(getSectionByName("La GOT Âme")).toBeInTheDocument();
     expect(getSectionByName("Projets en cours")).toBeInTheDocument();
